@@ -8,19 +8,21 @@
 </head>
 <body>
   <header>
+    <img src="img/logo-fkmpi.png" alt="Logo FKMPI" class="logo" />
     <h1>FKMPI Polines</h1>
     <nav>
       <ul>
         <li><a href="#profil">Profil</a></li>
         <li><a href="#divisi">Divisi</a></li>
         <li><a href="#kontak">Kontak</a></li>
+        <li><a href="#kerjasama">Kerja Sama</a></li>
       </ul>
     </nav>
   </header>
 
   <section id="profil">
     <h2>Profil Organisasi</h2>
-    <p>FKMPI adalah Forum Komunikasi Mahasiswa Politeknik Indonesia yang bertujuan mewadahi pengembangan mahasiswa politeknik secara nasional.</p>
+    <p>FKMPI adalah Forum Komunikasi Mahasiswa Politeknik Indonesia...</p>
   </section>
 
   <section id="divisi">
@@ -32,6 +34,23 @@
     <h2>Kontak</h2>
     <p>Email: fkmpi@polines.ac.id</p>
     <p>Instagram: @fkmpipolines</p>
+  </section>
+
+  <section id="kerjasama">
+    <h2>Formulir Kerja Sama</h2>
+    <form id="form-kerjasama">
+      <label for="nama">Nama Instansi:</label>
+      <input type="text" id="nama" name="nama" required>
+
+      <label for="email">Email Kontak:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="pesan">Deskripsi Kerja Sama:</label>
+      <textarea id="pesan" name="pesan" rows="4" required></textarea>
+
+      <button type="submit">Kirim</button>
+    </form>
+    <p id="status-pengiriman"></p>
   </section>
 
   <footer>
